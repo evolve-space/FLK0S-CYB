@@ -369,6 +369,6 @@ Estado actual:
 
 # 🛡️ FLK0S-CYB
 
-AI-Native Cybersecurity Operations Platform
+Construido con curiosidad, cafeína y obsesión por la ciberseguridad.
 
 </div>
