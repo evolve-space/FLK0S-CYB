@@ -1,3 +1,4 @@
+# FLK0S-CYB
 
 <div align="center">
 
@@ -5,6 +6,13 @@
 ### Plataforma AI-Native de Operaciones de Ciberseguridad
 
 Threat Intelligence · Detection Engineering · AI SOC Copilot · Multi-SIEM · Attack Surface Monitoring
+
+<br>
+
+![Estado](https://img.shields.io/badge/status-active_development-00ff88?style=for-the-badge)
+![Open Core](https://img.shields.io/badge/open--core-project-7c3aed?style=for-the-badge)
+![AI Native](https://img.shields.io/badge/AI-native_platform-00d4ff?style=for-the-badge)
+![SOC](https://img.shields.io/badge/SOC-ready-ff0055?style=for-the-badge)
 
 </div>
 
@@ -26,6 +34,116 @@ Incluye:
 - Integraciones Multi-SIEM
 - Automatización de workflows
 - Dashboard SOC en tiempo real
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Landing Page
+
+![Landing](./01_landing.png)
+
+---
+
+## 🌌 Landing Completa
+
+![Landing Full](./01_landing_full.png)
+
+---
+
+## 💳 Pricing
+
+![Pricing](./02_pricing.png)
+
+---
+
+## 🔐 Login
+
+![Login](./03_login.png)
+
+---
+
+## 📊 Dashboard SOC
+
+![Dashboard](./04_dashboard.png)
+
+---
+
+## 🖥️ Dashboard Completo
+
+![Dashboard Full](./04_dashboard_full.png)
+
+---
+
+## 🚨 Alert Management
+
+![Alerts](./05_alerts.png)
+
+---
+
+## 🗂️ Cases Management
+
+![Cases](./06_cases.png)
+
+---
+
+## 🛡️ Detection Engineering
+
+![Detections](./07_detections.png)
+
+---
+
+## 🎯 MITRE ATT&CK Coverage
+
+![ATT&CK Coverage](./08_attck_coverage.png)
+
+---
+
+## 🔗 Multi-SIEM Targets
+
+![SIEM Targets](./09_siem_targets.png)
+
+---
+
+## 🌍 Threat Intelligence
+
+![Threat Intel](./10_threat_intel.png)
+
+---
+
+## 📡 Attack Surface Monitoring
+
+![Attack Surface](./11_attack_surface.png)
+
+---
+
+## 🤖 AI SOC Copilot
+
+![AI Copilot](./12_copilot_ai.png)
+
+---
+
+## 🔑 API Keys Management
+
+![API Keys](./13_api_keys.png)
+
+---
+
+## 📜 Audit Logs
+
+![Audit Logs](./14_audit_log.png)
+
+---
+
+## ⚙️ Settings
+
+![Settings](./15_settings.png)
+
+---
+
+## 🚀 Onboarding Tour
+
+![Onboarding](./16_onboarding_tour.png)
 
 ---
 
@@ -257,6 +375,6 @@ Estado actual:
 
 # 🛡️ FLK0S-CYB
 
-Construido con curiosidad, cafeína y obsesión por la ciberseguridad.
+AI-Native Cybersecurity Operations Platform
 
 </div>
