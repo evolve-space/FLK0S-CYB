@@ -51,12 +51,6 @@ Incluye:
 
 ---
 
-## 💳 Pricing
-
-![Pricing](./02_pricing.png)
-
----
-
 ## 🔐 Login
 
 ![Login](./03_login.png)
