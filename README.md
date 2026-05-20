@@ -1,6 +1,6 @@
 # FLK0S-CYB
 
-<div align="center">
+<div >
 
 # 🛡️ FLK0S-CYB
 ### Plataforma AI-Native de Operaciones de Ciberseguridad
