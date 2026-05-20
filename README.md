@@ -1,158 +1,119 @@
 # FLK0S-CYB
 
-<div>
+<div align="center">
 
 # 🛡️ FLK0S-CYB
-### Plataforma de Ciberseguridad AI-Native
+### Plataforma AI-Native de Operaciones de Ciberseguridad
 
-Una plataforma moderna de operaciones de ciberseguridad desarrollada por un estudiante para el Blue Team, la Ingeniería de Detecciones y la IA.
+Threat Intelligence · Detection Engineering · AI SOC Copilot · Multi-SIEM · Attack Surface Monitoring
 
 </div>
 
 ---
 
-# 📖 ¿Qué es FLK0S-CYB?
+# 📖 Descripción
 
-FLK0S-CYB es una plataforma experimental de ciberseguridad impulsada por IA, inspirada en herramientas enterprise reales utilizadas por:
+FLK0S-CYB es una plataforma de ciberseguridad orientada a operaciones SOC, detección de amenazas y automatización defensiva.
 
-- SOC Analysts
-- Blue Teams
-- Detection Engineers
-- Equipos defensivos
-- Plataformas SIEM modernas
+La plataforma centraliza múltiples funcionalidades utilizadas habitualmente en entornos Blue Team y Detection Engineering dentro de una única interfaz moderna.
 
-El objetivo del proyecto es centralizar:
+Incluye:
 
+- Gestión de detecciones
 - Threat Intelligence
-- Gestión de alertas
-- Ingeniería de detecciones
-- Investigaciones asistidas por IA
-- Integraciones con SIEMs
+- AI Copilot
 - Monitorización de superficie de ataque
-- Automatización de operaciones SOC
-
-...todo dentro de una única plataforma moderna con una interfaz futurista estilo SOC/cyberpunk.
-
-Este proyecto comenzó como un reto de aprendizaje creado por un estudiante de ciberseguridad que quería entender cómo funcionan internamente las plataformas reales de seguridad.
-
----
-
-# 🧠 ¿Por qué existe este proyecto?
-
-Cuando mucha gente aprende ciberseguridad normalmente:
-
-- usa herramientas ya creadas
-- ejecuta scripts
-- hace pequeños proyectos
-
-FLK0S-CYB nació con otra idea:
-
-> “Intentar construir una plataforma que se sintiera como un producto real de ciberseguridad.”
-
-El proyecto sirve para aprender:
-
-- Cómo funciona un SIEM
-- Cómo trabaja un SOC
-- Cómo se crean detecciones
-- Cómo se procesan amenazas
-- Cómo puede ayudar la IA en seguridad
-- Cómo se construyen plataformas SaaS modernas
-- Cómo diseñar dashboards profesionales
+- Gestión de alertas
+- Integraciones Multi-SIEM
+- Automatización de workflows
+- Dashboard SOC en tiempo real
 
 ---
 
-# ⚡ Funciones principales
+# ⚡ Funcionalidades
 
 ## 🤖 AI SOC Copilot
 
-Un asistente de ciberseguridad integrado directamente en la plataforma.
+Asistente integrado orientado a tareas defensivas y análisis de seguridad.
 
-Puede ayudar con:
+Funciones:
 
 - Resumen de alertas
 - Extracción de IOCs
 - Explicación de amenazas
-- Generación de reglas de detección
-- Recomendaciones defensivas
+- Generación de reglas
 - Asistencia en investigaciones
+- Respuesta contextual mediante IA
 
-Compatible con múltiples proveedores de IA y preparado para futuros modelos locales/self-hosted.
+Compatible con múltiples proveedores LLM.
 
 ---
 
 ## 🛡️ Detection Engineering
 
-Sistema para crear y gestionar detecciones inspirado en herramientas reales.
+Sistema para crear y gestionar detecciones.
 
-Incluye conceptos similares a:
+Características:
 
-- Sigma
-- YARA
-- Detecciones SIEM
-- MITRE ATT&CK
-
-Ejemplos:
-
-✅ Detectar PowerShell sospechoso  
-✅ Detectar ataques de fuerza bruta  
-✅ Detectar comportamiento ransomware  
-✅ Crear reglas reutilizables  
+- Gestión de reglas
+- Validación de detecciones
+- ATT&CK Mapping
+- Compatibilidad con Sigma/YARA
+- Organización por severidad
+- Pipeline Detection-as-Code
 
 ---
 
 ## 🌍 Threat Intelligence
 
-Sistema de análisis de IOCs capaz de revisar:
+Módulo de análisis de IOCs multi-provider.
+
+Permite analizar:
 
 - IPs
 - Dominios
 - URLs
 - Hashes
 
-Utilizando múltiples proveedores de Threat Intelligence.
-
-La idea es centralizar toda la información de reputación en un único panel.
+Integración preparada para múltiples feeds y proveedores de reputación.
 
 ---
 
 ## 📡 Attack Surface Monitoring
 
-Monitorización de activos expuestos y superficie de ataque.
+Sistema de monitorización de activos externos.
 
-Incluye:
+Funciones:
 
-- Descubrimiento de subdominios
+- Enumeración de subdominios
 - Escaneo de puertos
 - Fingerprinting HTTP
 - Verificación TLS
-- Scoring de riesgo
-
-Útil para detectar servicios expuestos o configuraciones débiles.
+- Risk Scoring
+- Reconocimiento automatizado
 
 ---
 
 ## 📊 Dashboard SOC
 
-Dashboard inspirado en plataformas SOC modernas.
+Dashboard centralizado para operaciones defensivas.
 
-Muestra:
+Incluye:
 
 - Alertas
-- Eventos de seguridad
-- Estadísticas
-- Threat activity
-- Quick actions
+- Eventos
+- Métricas
+- Actividad en tiempo real
 - Insights generados por IA
-
-Con una estética SOC moderna.
+- Quick Actions
 
 ---
 
 ## 🔗 Integraciones Multi-SIEM
 
-La plataforma está diseñada para integrarse con múltiples herramientas en lugar de depender de un único proveedor.
+Arquitectura preparada para integración con múltiples plataformas.
 
-Inspirado en:
+Compatibilidad conceptual con:
 
 - Splunk
 - Elastic
@@ -161,9 +122,7 @@ Inspirado en:
 
 ---
 
-# 🏗️ Tecnologías utilizadas
-
-FLK0S-CYB mezcla desarrollo moderno con herramientas de ciberseguridad.
+# 🏗️ Arquitectura
 
 ## Frontend
 
@@ -182,8 +141,8 @@ FLK0S-CYB mezcla desarrollo moderno con herramientas de ciberseguridad.
 ## Infraestructura
 
 - Docker
-- Redis
 - PostgreSQL
+- Redis
 - ClickHouse
 - OpenSearch
 - MinIO
@@ -193,111 +152,105 @@ FLK0S-CYB mezcla desarrollo moderno con herramientas de ciberseguridad.
 - Routing multi-provider
 - OpenAI
 - Anthropic
-- Arquitectura preparada para Ollama
+- Ollama-ready
 
 ---
 
-# 🧩 Curiosidades del proyecto
+# 🔐 Seguridad
 
-FLK0S-CYB no es simplemente “una herramienta”.
+Características implementadas:
 
-Mezcla ideas de:
-
-- SIEMs
-- SOARs
-- AI copilots
-- Threat Intelligence Platforms
-- Detection-as-Code
-- Attack Surface Management
-- Dashboards SOC
-
-Por eso el proyecto se parece más a un ecosistema de ciberseguridad que a un script aislado.
-
----
-
-# 🎯 ¿Qué se podría hacer con FLK0S-CYB?
-
-Ejemplos:
-
-✅ Investigar IPs sospechosas  
-✅ Crear detecciones personalizadas  
-✅ Aprender Detection Engineering  
-✅ Simular operaciones SOC  
-✅ Automatizar tareas defensivas  
-✅ Integrar herramientas externas  
-✅ Experimentar con IA aplicada a ciberseguridad  
-✅ Crear workflows Blue Team  
-✅ Practicar análisis de amenazas  
-✅ Entender cómo funcionan plataformas enterprise reales  
+- JWT Authentication
+- API Keys
+- RBAC
+- Multi-tenant isolation
+- Security headers
+- Rate limiting
+- Error envelope
+- Readiness probes
+- WebSocket auth
+- Environment validation
+- Secret key validation
 
 ---
 
-# 👨‍🎓 Hecho por un FLK0S
+# 📦 Componentes principales
 
-El proyecto se convirtió en una forma de explorar:
+## Alert Management
 
-- Arquitectura enterprise
-- Frontend moderno
-- APIs backend
-- Sistemas multi-tenant
-- Integración de IA
-- Hardening
-- Diseño de producto
-- Ciberseguridad defensiva
+Gestión de alertas y eventos de seguridad.
 
-Este repositorio representa más:
+## Detection Rules
 
-- curiosidad
-- aprendizaje
-- experimentación
+Creación y despliegue de reglas.
 
-...que un producto terminado.
+## Threat Intel
 
----
+Análisis y correlación de IOCs.
 
-# 🚀 Ideas futuras
+## Cases
 
-Posibles funciones futuras:
+Gestión de investigaciones y timelines.
 
-- Detecciones generadas automáticamente por IA
-- Automatización SOC avanzada
-- Sandboxing de malware
-- Threat hunting
-- Marketplace de reglas
-- Investigaciones colaborativas
-- Agentes IA locales
-- Grafos de ataques
-- Feeds en tiempo real
-- Pipelines automáticos de respuesta
+## Surface Monitoring
+
+Reconocimiento y monitorización externa.
+
+## AI Engine
+
+Asistencia automatizada mediante IA.
 
 ---
 
-# 🎨 Filosofía visual
+# 🚀 Objetivos del proyecto
 
-FLK0S-CYB sigue una estética:
-
-- Cyberpunk
-- SOC moderno
-- UI oscura
-- Dashboards futuristas
-- Componentes inspirados en terminales
-- Diseño enterprise moderno
-
-El objetivo es que la experiencia visual se sienta inmersiva y profesional.
+- Centralizar operaciones SOC
+- Automatizar tareas defensivas
+- Facilitar Detection Engineering
+- Mejorar workflows Blue Team
+- Integrar IA en análisis de seguridad
+- Unificar múltiples herramientas en una única plataforma
 
 ---
 
-# ⚠️ Nota importante
+# 🧩 Casos de uso
 
-FLK0S-CYB es un proyecto educativo y experimental.
+- Investigación de amenazas
+- Triage de alertas
+- Gestión de detecciones
+- Monitorización de activos expuestos
+- Simulación de workflows SOC
+- Automatización de análisis
+- Correlación de eventos
+- Gestión de IOCs
 
-Aunque implementa muchos conceptos enterprise, el repositorio está enfocado principalmente en:
+---
 
-- aprendizaje
-- portfolio
-- experimentación
-- arquitectura moderna
-- investigación tecnológica
+# 🎨 Interfaz
+
+FLK0S-CYB utiliza una interfaz inspirada en plataformas SOC modernas:
+
+- Tema oscuro
+- Dashboard cyberpunk
+- Componentes estilo terminal
+- Visualización en tiempo real
+- Diseño orientado a operaciones de seguridad
+
+---
+
+# 📌 Estado del proyecto
+
+Estado actual:
+
+- Backend modular operativo
+- Dashboard funcional
+- Integraciones iniciales
+- Sistema AI Copilot
+- Threat Intelligence operativo
+- Attack Surface Monitoring
+- Arquitectura multi-tenant
+- WebSockets en tiempo real
+- Base preparada para escalabilidad enterprise
 
 ---
 
